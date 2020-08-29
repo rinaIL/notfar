@@ -1,6 +1,52 @@
 .far-image{
     background-image:url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    height: 600px;
+    height: 200px;
     color:white;
     font-size: 50px;
 }
+
+.far-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position:relative; 
+    align-content: center;
+    justify-content: center;
+    height:500px;
+    margin-bottom: 50px;
+}
+
+
+.far-content table{
+    position: absolute;
+    margin:15px;
+    top: 10%;
+    width: 1000px;
+    right:22%;
+    font-size:25px;
+}
+
+.far-time-table {
+    height: 50px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.vertical{
+    margin:1px;
+    color:rgb(218, 212, 212);
+    font-weight:bold;
+}
+
+
+.category h3 {
+    margin:10px;
+}
+.category-link {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category a{
+    color:rgb(0, 153, 255);
+}
+
