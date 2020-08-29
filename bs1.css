@@ -10,3 +10,29 @@ body{
     /* padding: 10px; */
     margin: 10px;
 }
+
+.img-fluid, .banner
+{
+
+    /* align-content: center; */
+/* background-color: teal; */
+/* height: 200px; */
+
+}
+
+.welcome-text {
+    text-align: center;
+    color: rgb(50, 75, 111);
+}
+
+ 
+.banner-flex {
+    display: flex;
+    min-height: 160px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    background: url(/img/banner-background.png) repeat-x;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
