@@ -16,7 +16,7 @@ body{
 
     /* align-content: center; */
 /* background-color: teal; */
-/* height: 200px; */
+height: 180px;
 
 }
 
@@ -28,7 +28,7 @@ body{
  
 .banner-flex {
     display: flex;
-    min-height: 160px;
+    min-height: 220px;
     -webkit-box-pack: center;
     justify-content: center;
     position: relative;
