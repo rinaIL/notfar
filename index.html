@@ -1,96 +1,518 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="bs1.css" />
-    <script src="https://kit.fontawesome.com/228ef67d32.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href='./css/style.css'>
+    <link rel="stylesheet" type="text/css" href="./css/bs1.css" />
+    <script src="https://kit.fontawesome.com/c48bfae2ce.js" crossorigin="anonymous"></script>
     <title>Not Far</title>
   </head>
+
   <body>
-  <div class="navbar navbar-expand-lg navbar-light  bg-light text-dark">
-    <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">
-        <img src="IMG/LOGO.png" height="40" class="d-inline-block align-top"
-          alt="mdb logo">  
-      </a>
-          <!-- Collapse button - humburger  -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-      </ul>
-      <!-- Links -->
-      <form class="form-inline">
-        <div class="md-form  navItems d-inline-block">
-            <span class="input-group-addon">  
-              <span class="fas fa-search fa-lg ">       </sapn>
-              <!-- <img src="img/search.png" height="30" class="d-inline-block align-top"                alt="logo"> -->
-            </span>
-            <input id="Search" type="text" class="form-control d-inline-block" name="Search" placeholder="Find Classes ">
-           </div>
-      </form>
-       <!-- Links -->
-       <ul class="navbar-nav mr-1">
-        <li class="nav-item">
+    <div class="navbar navbar-expand-lg navbar-light  bg-light text-dark">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">
+          <img src="./IMG/LOGO.png" height="40" class="d-inline-block align-top"
+            alt="mdb logo">  
+        </a>
+            <!-- Collapse button - humburger  -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <!-- Links -->
+        <form class="form-inline">
+          <div class="md-form  navItems d-inline-block">
+              <span class="input-group-addon">  
+                <span class="fas fa-search fa-lg ">       </sapn>
+              </span>
+              <input id="Search" type="text" class="form-control d-inline-block" name="Search" placeholder="Find Classes ">
+             </div>
+        </form>
+         <!-- Links -->
+         <ul class="navbar-nav mr-1">
+          <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <span class="fas fa-calendar-alt fa-md fontStyle"> Schedule     </sapn>
+                </a>
+          </li>
+          <li class="nav-item">
             <a class="navbar-brand" href="#">
-              <span class="fas fa-calendar-alt fa-md fontStyle"> Schedule     </sapn>
-                <!-- <img src="img/calendar.png" height="30" class="d-inline-block align-top"  alt="logo">  -->
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="#">
-            <span class="fas fa-question-circle fa-md fontStyle"> Help       </sapn>
-            <!-- <img src="img/help.png" height="30" class="d-inline-block align-top"               alt="logo"> Help -->
-          </a>
-      </li>
-    <!-- Collapsible content -->
-     <!-- Dropdown -->
-     <li class="nav-item dropdown">
-        <!-- <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">Dropdown</a> -->
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"           aria-haspopup="true" aria-expanded="false" > 
-          <!-- <i class="far fa-user-circle"></i> -->
-          <span class="fas fa-user-circle fa-lg fontStyle">       </sapn>
-            <!-- <img src="img/person.png" height="30" class="d-inline-block align-top" alt="logo">   -->
+              <span class="fas fa-question-circle fa-md fontStyle"> Help       </sapn>
             </a>
-        <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Conversations</a>
-          <a class="dropdown-item" href="#">Favorites</a>
-          <a class="dropdown-item" href="#">Learner Schedule</a>
-        </div>
-      </li>
-    </ul>
+        </li>
+      <!-- Collapsible content -->
+       <!-- Dropdown -->
+       <li class="nav-item dropdown">
+          <!-- <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Dropdown</a> -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"           aria-haspopup="true" aria-expanded="false" > 
+            <!-- <i class="far fa-user-circle"></i> -->
+            <span class="fas fa-user-circle fa-lg fontStyle">       </sapn>
+              </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Conversations</a>
+            <a class="dropdown-item" href="#">Favorites</a>
+            <a class="dropdown-item" href="#">Learner Schedule</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
-</div>
-</div>
-<div class="container-float banner ">
-  <div class="row d-block text-center banner-flex ">
-    <div class="col-lg-12">
-        <img src="/img/banner.png" class="img-fluid" alt="Responsive image">  
-        <h3 class="welcome-text">Welcome, Ram!</h3>
-        <button type="button" class="btn btn-primary">Classes for Fall Semester</button>
+  </div>
+  <div class="container-float banner ">
+    <div class="row d-block text-center banner-flex ">
+      <div class="col-lg-12">
+          <img src="./img/banner.png" class="img-fluid" alt="Responsive image">  
+          <h3 class="welcome-text">Welcome, Ram!</h3>
+          <button type="button" class="btn btn-primary">Classes for Fall Semester</button>
+        </div>
       </div>
+  </div>
+
+  <div class="container align-carousel">
+    <div class="row">
+        <div id="carousel-multi-not-far-topics" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="btn-floating" href="#carousel-multi-not-far-topics" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                <a class="btn-floating" href="#carousel-multi-not-far-topics" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+        
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="1"></li>
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="2"></li>
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="3"></li>
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="4"></li>
+                <li data-target="#carousel-multi-not-far-topics" data-slide-to="5"></li>
+            </ol>
+            <!--/.Indicators-->
+        
+            <div class="carousel-inner v-2" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="https://www.moneycrashers.com/wp-content/uploads/2019/01/best-free-online-college-courses-1200x630-cropped.jpg"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">School improvment Courses</h4>
+                                    <p class="card-text">Improve Your Child's Studying With Intuitive & Fun Courses</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="http://www.hashiva.co.il/html5/Web/10147/12505ImageFile2.jpg"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Enriching Courses</h4>
+                                    <p class="card-text">Is Your Child Interesting In Other Topics Beside School Education? 
+                                        This Is The Right Place For Him</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="http://www.hashiva.co.il/html5/Web/10147/12504ImageFile2.jpg"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Educational & Fun Games</h4>
+                                    <p class="card-text">Yout Child Think Its a Game, But You Know He Getting Smarter</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="https://th.thgim.com/sci-tech/technology/internet/article20507983.ece/alternates/FREE_435/digital%20dad%20Converted%202"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Parental Control</h4>
+                                    <p class="card-text">Inspect & Follow After Your Kids Progress With Easy Tools & Graphes</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="http://www.hashiva.co.il/html5/Web/10147/12508ImageFile2.jpg"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Card 5 title</h4>
+                                    <p class="card-text">Some quick text</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-12 col-md-4">
+                        <a href="/">
+                            <div class="card mb-2">
+                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (27).jpg"
+                                alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title font-weight-bold">Card 6 title</h4>
+                                    <p class="card-text">Some quick text</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </div>
     </div>
 </div>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12"></div>
+        <div class="col-md-6 col-sm-12 far-time-table">My Timetable</div>
+        <div class="col-md-2 col-sm-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12"></div>
+        <div class="col-md-6 col-sm-12 far-time-table"></div>
+        <div class="col-md-2 col-sm-12"></div>
+      </div>
+    </div>
+  
+
+     <div class="table-responsive">   
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Hours</th>
+              <th scope="col">Sunday</th>
+              <th scope="col">Monday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr class="table-active">
+                <td class="table-active">10:00</td> 
+                <td class="table-primary">...</td>
+                <td class="table-secondary">English</td>
+                <td class="table-success">...</td>
+                <td class="table-danger">English</td>
+                <td class="table-warning">...</td>
+                <td class="table-info">...</td>
+              </tr>
+              <tr class="table-primary">                
+                <td class="table-active">12:00</td> 
+                <td class="table-primary">Chess</td>
+                <td class="table-secondary">...</td>
+                <td class="table-success">...</td>
+                <td class="table-danger">...</td>
+                <td class="table-warning">...</td>
+                <td class="table-info">...</td>
+              </tr>
+              <tr class="table-secondary">
+                <td class="table-active">16:00</td> 
+                <td class="table-primary">Play</td>
+                <td class="table-secondary">Play</td>
+                <td class="table-success">Play</td>
+                <td class="table-danger">Play</td>
+                <td class="table-warning">...</td>
+                <td class="table-info">...</td>
+              </tr>
+              <tr class="table-success">
+                <td class="table-active">17:00</td> 
+                <td class="table-primary">Netfix</td>
+                <td class="table-secondary">Netfix</td>
+                <td class="table-success">Netfix</td>
+                <td class="table-danger">Netfix</td>
+                <td class="table-warning">...</td>
+                <td class="table-info">...</td></tr>
+              </tr>
+              <tr class="table-danger">
+                <td class="table-active">18:00</td> 
+                <td class="table-primary">...</td>
+                <td class="table-secondary">...</td>
+                <td class="table-success">...</td>
+                <td class="table-danger">...</td>
+                <td class="table-warning">Social game</td>
+                <td class="table-info">Social game</td>
+              </tr>
+              <tr class="table-warning">
+                <td class="table-active">19:00</td> 
+                <td class="table-primary">...</td>
+                <td class="table-secondary">...</td>
+                <td class="table-success">...</td>
+                <td class="table-danger">...</td>
+                <td class="table-warning">Film</td>
+                <td class="table-info">Film</td>
+              </tr>
+          </tbody>
+      </table>
+    </div> 
+ 
+      <div class="subnavigation-container">
+          <footer class="mainfooter" role="contentinfo">
+            <div class="footer-top p-y-2">
+              <div class="container-fluid">
+                <div class="row">
+                  
+                  <div class="col-md-12">
+                    <div class="footer-title text-xs-center">
+                    <h4 class="p-b-1"></h4>
+                  </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">                     
+                          <span class="fas fa-book fa-lg">
+                          </span>
+                          English                      
+                      </div>
+                      <div class="card-header category-footer">Creative Writing</div>
+                      <div class="card-header category-footer">Essay Writing</div>
+                      <div class="card-header category-footer">Book Club</div>
+                      <div class="card-header category-footer">Grammar</div>
+                      <div class="card-header category-footer">Read</div>
+                      <div class="card-header category-footer">Poetry</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All English Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                    <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">
+                        <span class="fas fa-palette fa-lg">
+                        </span>
+                        Arts
+                      </div>
+                      <div class="card-header category-footer">Drawing</div>
+                      <div class="card-header category-footer">Dance</div>
+                      <div class="card-header category-footer">Photograhpy</div>
+                      <div class="card-header category-footer">Theatre</div>
+                      <div class="card-header category-footer">Sewing</div>
+                      <div class="card-header category-footer">Film</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All Arts Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                    <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">
+                        <span class="fas fa-laptop-code fa-lg">
+                        </span>
+                        Coding&Tech
+                      </div>
+                      <div class="card-header category-footer">Coding</div>
+                      <div class="card-header category-footer">Animation</div>
+                      <div class="card-header category-footer">Robotics</div>
+                      <div class="card-header category-footer">Python</div>
+                      <div class="card-header category-footer">Minecraft</div>
+                      <div class="card-header category-footer">Animation</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All Coding&Tech Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                    <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">
+                        <span class="fas fa-running fa-lg">
+                        </span>
+                        Health&Wellness
+                      </div>
+                      <div class="card-header category-footer">Exercise</div>
+                      <div class="card-header category-footer">Emotions</div>
+                      <div class="card-header category-footer">Mindfulness</div>
+                      <div class="card-header category-footer">Nutrition</div>
+                      <div class="card-header category-footer">Hygiene</div>
+                      <div class="card-header category-footer">Cooking</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All Health&Wellness Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                    <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">
+                        <span class="fas fa-globe fa-lg">
+                        </span>
+                        World Languages
+                      </div>
+                      <div class="card-header category-footer">Spanish</div>
+                      <div class="card-header category-footer">French</div>
+                      <div class="card-header category-footer">Japanese</div>
+                      <div class="card-header category-footer">German</div>
+                      <div class="card-header category-footer">Sign Language</div>
+                      <div class="card-header category-footer">Korean</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All World Languages Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                    <div class="col-md-2">
+                    <div class="card card-primary">
+                      <div class="card-header category-footer">
+                        <span class="fas fa-music fa-lg">
+                        </span>
+                        Music
+                      </div>
+                      <div class="card-header category-footer">Piano</div>
+                      <div class="card-header category-footer">Singing</div>
+                      <div class="card-header category-footer">Guitar</div>
+                      <div class="card-header category-footer">Music Theory</div>
+                      <div class="card-header category-footer">Ukulele</div>
+                      <div class="card-header category-footer">Dance</div>
+                      <div class="card-header category-footer"><span class="fas fa-folder-open fa-sm"></span>All Music Classes</div>
+                    </div>
+                  </div><!--col-md-2-->
+                </div>
+              </div>
+            </div>
+            <div class="footer-middle">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Address</h4>
+                    <address>
+                          <ul class="list-unstyled">
+                            <li>
+                              City Hall<br>
+                              212  Street<br>
+                              Lawoma<br>
+                              735<br>
+                            </li>
+                            <li>
+                              Phone: 0
+                            </li>
+                          </ul>
+                        </address>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Popular Services</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#"></a></li>
+                      <li><a href="#">Payment Center</a></li>
+                      <li><a href="#">Contact Directory</a></li>
+                      <li><a href="#">Forms</a></li>
+                      <li><a href="#">News and Updates</a></li>
+                      <li><a href="#">FAQs</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Website Information</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Website Tutorial</a></li>
+                      <li><a href="#">Accessibility</a></li>
+                      <li><a href="#">Disclaimer</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">Webmaster</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <!--Column1-->
+                  <div class="footer-pad">
+                    <h4>Popular Departments</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Parks and Recreation</a></li>
+                      <li><a href="#">Public Works</a></li>
+                      <li><a href="#">Police Department</a></li>
+                      <li><a href="#">Fire</a></li>
+                      <li><a href="#">Mayor and City Council</a></li>
+                      <li>
+                        <a href="#"></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <!--Footer Bottom-->
+                    <p class="text-xs-center">&copy; Copyright 2016 - City of USA.  All rights reserved.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+      </div>
+      <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous" ></script>
+      crossorigin="anonymous"
+    ></script>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous" ></script>
+
   </body>
-</html>
+  </html>
