@@ -21,11 +21,11 @@ body{
 }
 .img-fluid, .banner
 {
-
-    /* align-content: center; */
-/* background-color: teal; */
-height: 180px;
-
+    align-content: center;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 .welcome-text {
