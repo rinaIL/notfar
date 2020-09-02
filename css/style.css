@@ -26,7 +26,7 @@
 
 .far-time-table {
     height: 50px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -108,4 +108,23 @@ footer{
       font-size:20px;
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   }
+
+  .carousel{
+    background: #fec840;   
+}
+
+.carousel-aling {
+  margin-top:100px;
+  margin-bottom:60px;
+}
+
+
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */ 
+}
+
+.time-table {
+  margin-bottom: 50px;
+}
 
